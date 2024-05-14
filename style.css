@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: yellowgreen;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 500px;
+}
+
+main {
+    width: 375px;
+    height: 712px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    display: flex;
+    flex-direction: column;
+    background: #F4F4F4;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select {
+    background: #ffffff;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    filter: drop-shadow(3px 3px 3px #555);
+}
+
+input {
+    background: #ffffff;
+    border: 1px solid #888888;
+    border-radius: 4px;
+    height: 38px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    filter: drop-shadow(3px 3px 3px #555);
+}
+
+button {
+    Width: 327px;
+    Height: 48px;
+    border-radius: 5px;
+    background: #772FD3;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    filter: drop-shadow(3px 3px 3px #555);
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+.bandeiras {
+    Width: 327px;
+    Height: 380px;
+    border: 1px solid #772FD3;
+    margin-top: 20px;
+    border-radius: 20px;
+    text-align: center;
+    filter: drop-shadow(3px 3px 3px #555);
+}
+
+section {
+    padding: 20px;
+}
+
+div {
+    padding: 15px;
+} 
+
+.bandeirola{
+    filter: drop-shadow(3px 3px 3px #555);
+}
+
+p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #555;
+}
