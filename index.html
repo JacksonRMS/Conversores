@@ -29,10 +29,9 @@
 
         <label>
             Converter <b>para</b>
-            <select>
-                <option>US$ Real</option>
-                <option>Euro</option>
-                <option>US$ Real</option>
+            <select id="seletorDeMoeda">
+                <option value="dolar">US$ Dolar</option>
+                <option value="euro">Euro</option>
             </select>
         </label>
 
@@ -47,7 +46,7 @@
             <div>
                 <img class="bandeirola" src="./assets/brasil 2.png" alt="moeda a converter">
                 <p>real</p>
-                <p>R$ 0,00</p>
+                <p id="valorParaConverter">R$ 0,00</p>
             </div>
 
             <img src="./assets/Vector.png" alt="">
@@ -55,7 +54,7 @@
             <div>
                 <img class="bandeirola" src="./assets/estados-unidos (1) 1.png" alt="moeda a convertida">
                 <p>Dolar</p>
-                <p>US$ 0,00</p>
+                <p id="valorConvertido">US$ 0,00</p>
             </div>
 
         </section>
