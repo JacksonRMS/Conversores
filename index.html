@@ -14,15 +14,16 @@
     <title>Conversores - Moedas</title>
 </head>
 
-<body>
+<body id="fundo">
 
     <img class="logo" src="assets/logo.gif" alt="">
 
     <main>
         <label>
-            Converter <b>de</b>
+            Conversor <b>de</b>
             <select>
-                <option>R$ Real</option>
+                <option id="valores">Moedas</option>
+                <option id="temperatura">Temperaturas</option>
             </select>
         </label>
 
@@ -32,6 +33,9 @@
             <select id="seletorDeMoeda">
                 <option value="dolar">US$ Dolar</option>
                 <option value="euro">Euro</option>
+                <option value="" class="termometro" >Celsius</option>
+                <option value="" class="termometro">Fahrenheit</option>
+                <option value="" class="termometro">kelvin</option>
             </select>
         </label>
 
@@ -44,7 +48,7 @@
 
         <section class="bandeiras">
             <div>
-                <img class="bandeirola" src="./assets/brasil 2.png" alt="moeda a converter">
+                <img class="bandeirola" src="./assets/real.png" alt="moeda a converter">
                 <p>real</p>
                 <p id="valorParaConverter">R$ 0,00</p>
             </div>
@@ -52,8 +56,8 @@
             <img src="./assets/Vector.png" alt="">
 
             <div>
-                <img class="bandeirola" src="./assets/estados-unidos (1) 1.png" alt="moeda a convertida">
-                <p>Dolar</p>
+                <img id="bandeira" class="bandeirola" src="assets/dolar.png" alt="moeda a convertida">
+                <p id="dolares">Dolar</p>
                 <p id="valorConvertido">US$ 0,00</p>
             </div>
 
