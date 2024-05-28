@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="temperatuas.css">
+    <title>Conversor de temperaturas</title>
+</head>
+
+<body id="fundo">
+
+    
+
+        <!-- <img class="logo" src="assets/logo.gif" alt="">  -->
+        
+        <main>
+            <div class="medidas">
+                <a href="./index.html"> <img src="./assets/dinheiro.png" class="medida" alt="valores" title="valores"></a>
+                <img src="./assets/degelo.png" class="medida" alt="temperatuas" title="temperaturas">
+                <img src="./assets/velocidade.png" class="medida" alt="velocidade" title="velocidade">
+            </div>
+
+
+
+
+            <label>
+                Converter <b>de °Celcius</b>
+                <select id="seletor">
+                    <option value="coins" id="valores">°Celcius</option>
+                </select><!--valor do seletor-->
+            </label>
+
+
+
+            <label>
+                Converter <b>para</b>
+                <select id="seletorDeTemperatura">
+                    <option value="dolar" id="dolar" class="coin">°Fahrenheit</option>
+                    <option value="euro" class="coin">°Kelvin</option>
+
+                </select>
+            </label>
+
+
+
+
+            <label>
+                Temperatura
+                <input id="valorAConverter" placeholder="32°">
+            </label>
+
+
+
+
+
+
+
+            <button id="botao">Converter</button>
+
+
+
+
+            
+
+            <section class="bandeiras">
+                <div>
+                    <img class="bandeirola" src="" alt="Graus Celcius">
+                    <p>Celcius</p>
+                    <p id="valorParaConverter">°0</p>
+                </div>
+
+                <img src="./assets/Vector.png" alt="">
+
+                <div>
+                    <img id="bandeira" class="bandeirola" src="" alt="Temperatuas">
+                    <p id="dolares">Fahrenheit</p>
+                    <p id="valorConvertido">°0</p>
+                </div>
+
+            </section>
+
+        </main>
+
+    </body>
+
+<script src="./temperaturas.js"></script>
+</html>

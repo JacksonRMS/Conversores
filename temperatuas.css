@@ -17,6 +17,18 @@ body {
     border-radius: 500px;
 }
 
+.medidas{
+    display:flex; 
+    justify-content: center;
+    gap: 90px;
+}
+
+.medida{
+    width: 40px;
+    height: 40px;
+    margin-top: 0px;
+}
+
 main {
     width: 375px;
     height: 800px;
@@ -111,4 +123,3 @@ p{
     font-weight: 700;
     color: #555;
 }
-

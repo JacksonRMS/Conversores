@@ -8,34 +8,39 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">1
+    <link rel="stylesheet" href="style.css">
     
 
-    <title>Conversores - Moedas</title>
+    <title>Conversores</title>
 </head>
 
 <body id="fundo">
 
-    <img class="logo" src="assets/logo.gif" alt="">
-
+    <div class="logos">
+    <img class="logo" src="assets/logo.gif" alt=""> 
+    </div>
     <main>
+
+        <div class="medidas">
+            <a href="./index.html"> <img src="./assets/dinheiro.png" class="medida" alt="valores" title="valores"></a>
+            <img src="./assets/degelo.png" class="medida" alt="temperatuas" title="temperaturas">
+            <img src="./assets/velocidade.png" class="medida" alt="velocidade" title="velocidade">
+        </div>
+
         <label>
             Conversor <b>de</b>
-            <select>
-                <option id="valores">Moedas</option>
-                <option id="temperatura">Temperaturas</option>
-            </select>
+            <select id="seletor">
+                <option value="coins" id="valores">Moedas</option>
+        
+            </select><!--valor do seletor-->
         </label>
-
 
         <label>
             Converter <b>para</b>
-            <select id="seletorDeMoeda">
-                <option value="dolar">US$ Dolar</option>
-                <option value="euro">Euro</option>
-                <option value="" class="termometro" >Celsius</option>
-                <option value="" class="termometro">Fahrenheit</option>
-                <option value="" class="termometro">kelvin</option>
+            <select id="seletorDeMoeda"> 
+                <option value="dolar" id="dolar" class="coin">US$ Dolar</option>
+                <option value="euro" class="coin">Euro</option>
+               
             </select>
         </label>
 
@@ -49,7 +54,7 @@
         <section class="bandeiras">
             <div>
                 <img class="bandeirola" src="./assets/real.png" alt="moeda a converter">
-                <p>real</p>
+                <p></p>
                 <p id="valorParaConverter">R$ 0,00</p>
             </div>
 
