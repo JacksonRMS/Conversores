@@ -1,0 +1,74 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>velocidade</title>
+</head>
+
+<body id="fundo">
+
+    <div class="logos">
+    <!-- <img class="logo" src="assets/logo.gif" alt="">  -->
+    </div>
+    <main>
+
+        <div class="paginas">
+           
+        </div>
+
+        <label>
+            Conversor <b>de</b>
+            <select id="seletor">
+                <option value="coins" id="valores">Metros por segundo</option>
+        
+            </select><!--valor do seletor-->
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select id="seletorDeVelocidade"> 
+                <option value="km" id="km" class="coin">Quilômetro por hora</option>
+                <option value="pe" id="pe">Pés por segundo</option>
+                <option value="nos" id="nos">Nós</option>
+               
+            </select>
+        </label>
+
+        <label>
+            Velocidade
+            <input id="valorAConverter" placeholder="100ms">
+        </label>
+
+        <button id="botao">Converter</button>
+
+        <section class="bandeiras">
+            <div>
+                <img class="bandeirola" src="" alt="Velocidade a converter">
+                <p>Ms</p>
+                <p id="valorParaConverter">00</p>
+            </div>
+
+            <img src="./assets/Vector.png" alt="">
+
+            <div>
+                <img id="bandeira" class="bandeirola" src="" alt="Velocidade convertida">
+                <p id="quilometro">Km</p>
+                <p id="valorConvertido">00</p>
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+<script src="velocidade.js"></script>
+</html>

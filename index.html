@@ -9,38 +9,40 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
 
     <title>Conversores</title>
 </head>
 
 <body id="fundo">
 
-    <div class="logos">
-    <img class="logo" src="assets/logo.gif" alt=""> 
-    </div>
+    <!-- <div class="logos">
+        <img class="logo" src="assets/logo.gif" alt="">
+    </div> -->
+
     <main>
-
-        <div class="medidas">
-            <a href="./index.html"> <img src="./assets/dinheiro.png" class="medida" alt="valores" title="valores"></a>
-            <img src="./assets/degelo.png" class="medida" alt="temperatuas" title="temperaturas">
-            <img src="./assets/velocidade.png" class="medida" alt="velocidade" title="velocidade">
-        </div>
-
+        <nav>
+            <a href="./temperaturas.html">
+                <img width="56" height="56" src="https://img.icons8.com/ios/100/772FD3/shipped.png" alt="shipped" />
+    <img width="56" height="56" src="https://img.icons8.com/ios-filled/50/772FD3/shipped.png" alt="shipped" />
+            </a>
+            <a href="./velocidade.html">icon 2</a>
+        </nav>
+       
         <label>
             Conversor <b>de</b>
             <select id="seletor">
                 <option value="coins" id="valores">Moedas</option>
-        
+
             </select><!--valor do seletor-->
         </label>
 
         <label>
             Converter <b>para</b>
-            <select id="seletorDeMoeda"> 
+            <select id="seletorDeMoeda">
                 <option value="dolar" id="dolar" class="coin">US$ Dolar</option>
                 <option value="euro" class="coin">Euro</option>
-               
+
             </select>
         </label>
 
@@ -72,4 +74,5 @@
 
 </body>
 <script src="scripts.js"></script>
+
 </html>

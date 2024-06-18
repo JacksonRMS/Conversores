@@ -10,13 +10,13 @@ function trocaDeSeletor() {
     const fundo = document.getElementById("fundo")
 
     if (seletor.value == 'dolar'){
-        nomeDaMoeda.innerHTML = "mexirica"
+        nomeDaMoeda.innerHTML = "Dolar"
     imagem.src = "./assets/dolar.png"
     fundo.style.backgroundColor = "#857744"
     }
     
     if (seletor.value == 'euro'){
-        nomeDaMoeda.innerHTML = "batata"
+        nomeDaMoeda.innerHTML = "Euro"
     imagem.src = "./assets/euro.png"
     fundo.style.backgroundColor = "#852394"
 }
