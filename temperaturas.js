@@ -1,3 +1,14 @@
+const navBar = document.querySelector('.nav')
+const listas = document.querySelectorAll('li')
+
+listas.forEach( (li, index) => {
+
+    li.addEventListener("click", e => {
+        navBar.querySelector(".listaAtiva").classList.remove("listaAtiva")
+        li.classList.add("listaAtiva")
+    })
+})
+
 const botaoConversor = document.querySelector("#botao")//Botão selecionado
 botaoConversor.addEventListener("click", conversorDeValores)//Quando o botão é clicado ele chama a função-
 //"conversorDeValores" e apresenta a menssagem
