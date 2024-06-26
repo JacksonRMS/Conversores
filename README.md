@@ -1,29 +1,18 @@
 <img src="./assets/conversores-img.png" alt>
 
-<h1><strong style="font-weight: 700">Projeto<strong> <span style="color:772fd3; font-weight: 700"><u><i>Conversores</i></u></span></h1>
+<h1><strong style="font-weight: 700">Projeto<strong> <span style="color:#772fd3; font-weight: 700"><u><i>Conversores</i></u></span></h1>
 <br>
-<br>
-
-<br>
-<!-- <ul>
-    <h3 >Tecnologias usadas</h3>
-    <li><img align="center" alt="Js" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg"></li>
-    <li><img align="center" alt="HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"></li>
-    <li><img align="center" alt="CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"></li>
-</ul> -->
-<br>
-
 
 
 ## 📝  Sobre
+Esse projeto foi feito em conclusão do módulo 2 juntamente com outro projeto prático de <span style="color:#772fd3"><i>menu animado</i></span> que serve tambem como menu de navegação entre páginas de conversor de temperaturas e velocidades.
 
+<video src="./assets/Demonstração.mp4"></video>
 
 
 ## 🖥 Tecnologias
 
-Este projeto foi desenvolvido com HTML, CSS e JavaScript.
+Este projeto foi desenvolvido com VsCode, HTML, CSS e JavaScript.
 
-
-
-<h3>Confira o resultado acessando <a>Conversores</a> </h3>
+<h3>Confira o resultado acessando <a href="https://jacksonrms.github.io/Conversores/">Conversores</a></h3>
 <br>
